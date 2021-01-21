@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/glory/static/css/main.9c60a4fe.chunk.css",
-    "main.js": "/glory/static/js/main.e57a3d89.chunk.js",
-    "main.js.map": "/glory/static/js/main.e57a3d89.chunk.js.map",
-    "runtime-main.js": "/glory/static/js/runtime-main.83e4bf82.js",
-    "runtime-main.js.map": "/glory/static/js/runtime-main.83e4bf82.js.map",
-    "static/js/2.3f7758fa.chunk.js": "/glory/static/js/2.3f7758fa.chunk.js",
-    "static/js/2.3f7758fa.chunk.js.map": "/glory/static/js/2.3f7758fa.chunk.js.map",
+    "main.js": "/glory/static/js/main.36a09873.chunk.js",
+    "main.js.map": "/glory/static/js/main.36a09873.chunk.js.map",
+    "runtime-main.js": "/glory/static/js/runtime-main.f43d2d64.js",
+    "runtime-main.js.map": "/glory/static/js/runtime-main.f43d2d64.js.map",
+    "static/js/2.31471b38.chunk.js": "/glory/static/js/2.31471b38.chunk.js",
+    "static/js/2.31471b38.chunk.js.map": "/glory/static/js/2.31471b38.chunk.js.map",
     "static/css/3.13d9c9f5.chunk.css": "/glory/static/css/3.13d9c9f5.chunk.css",
-    "static/js/3.bfbb27d0.chunk.js": "/glory/static/js/3.bfbb27d0.chunk.js",
-    "static/js/3.bfbb27d0.chunk.js.map": "/glory/static/js/3.bfbb27d0.chunk.js.map",
+    "static/js/3.27c1f15c.chunk.js": "/glory/static/js/3.27c1f15c.chunk.js",
+    "static/js/3.27c1f15c.chunk.js.map": "/glory/static/js/3.27c1f15c.chunk.js.map",
     "static/css/4.68544a6f.chunk.css": "/glory/static/css/4.68544a6f.chunk.css",
     "static/js/4.40590c71.chunk.js": "/glory/static/js/4.40590c71.chunk.js",
     "static/js/4.40590c71.chunk.js.map": "/glory/static/js/4.40590c71.chunk.js.map",
@@ -17,7 +17,7 @@
     "static/css/3.13d9c9f5.chunk.css.map": "/glory/static/css/3.13d9c9f5.chunk.css.map",
     "static/css/4.68544a6f.chunk.css.map": "/glory/static/css/4.68544a6f.chunk.css.map",
     "static/css/main.9c60a4fe.chunk.css.map": "/glory/static/css/main.9c60a4fe.chunk.css.map",
-    "static/js/2.3f7758fa.chunk.js.LICENSE.txt": "/glory/static/js/2.3f7758fa.chunk.js.LICENSE.txt",
+    "static/js/2.31471b38.chunk.js.LICENSE.txt": "/glory/static/js/2.31471b38.chunk.js.LICENSE.txt",
     "static/media/index.css": "/glory/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/airbnbLogo.png": "/glory/static/media/airbnbLogo.e8497507.png",
     "static/media/codeInLogo.webp": "/glory/static/media/codeInLogo.e41a71d5.webp",
@@ -36,9 +36,9 @@
     "static/media/TalkCard.css": "/glory/static/media/talksCardBack.73ed1545.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.83e4bf82.js",
-    "static/js/2.3f7758fa.chunk.js",
+    "static/js/runtime-main.f43d2d64.js",
+    "static/js/2.31471b38.chunk.js",
     "static/css/main.9c60a4fe.chunk.css",
-    "static/js/main.e57a3d89.chunk.js"
+    "static/js/main.36a09873.chunk.js"
   ]
 }
