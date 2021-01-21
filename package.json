@@ -1,6 +1,6 @@
 {
-  "homepage": "https://goldenglory.github.io/glory",
-  "name": "goldenglory.github.io",
+  "homepage": "https://glory-portfolio.netlify.app/",
+  "name": "glory-portfolio.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
