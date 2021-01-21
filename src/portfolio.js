@@ -9,26 +9,28 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Olusola Glory',
+  title: "Hi all, I'm Glory",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'A Software and Machine Learning Enginner 🚀 combining experience to building applications usings tech like Python, Javascript and other tools both at the client side and server side.',
+    // 'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://goldenglorys.github.io/me',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://github.com/goldenglorys',
+  linkedin: 'https://www.linkedin.com/in/olusola-glory/',
+  gmail: 'olusolagloryolamide@gmail.com',
+  // gitlab: 'https://gitlab.com/goldenglorys',
+  // facebook: 'https://www.facebook.com/saad.pasta7',
+  medium: 'https://medium.com/@zenithsilvarex',
+  // stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  twitter: 'https://twitter.com/zenithsilvarex',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -37,14 +39,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'MACHINE LEARNING, DATA SCIENCE, SOFTWARE ENGINEERING, RESEARCH & DEVELOPMENT',
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Build secure server side API that powers the operational flow of a GUI application'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Develop efficient web and mobile applications in covergence with ML capailities'
+    ),
+    emoji('⚡ A systems engineer that analyze problems and solve it by engineering solution from a combination of existing components or by inventing entirely new one. '),
+    emoji(
+      '⚡ Integration of third party services such as Firebase/ AWS / GCP'
+    ),
+    emoji(
+      '⚡ Quantum Computing Obessed Individual'
     ),
   ],
 
@@ -60,50 +68,97 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'css3',
       fontAwesomeClassname: 'fab fa-css3-alt',
     },
-    {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
-    },
+    // {
+    //   skillName: 'sass',
+    //   fontAwesomeClassname: 'fab fa-sass',
+    // },
     {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'fab fa-js',
     },
     {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react',
+      skillName: 'PHP',
+      fontAwesomeClassname: 'fab fa-php',
     },
     {
-      skillName: 'nodejs',
-      fontAwesomeClassname: 'fab fa-node',
-    },
-    {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
-    },
-    {
-      skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
-    },
-    {
-      skillName: 'sql-database',
-      fontAwesomeClassname: 'fas fa-database',
-    },
-    {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
-    },
-    {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
-    },
-    {
-      skillName: 'python',
+      skillName: 'Python',
       fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'docker',
-      fontAwesomeClassname: 'fab fa-docker',
+      skillName: 'SQL',
+      fontAwesomeClassname: 'fa fa-database ',
     },
+    {
+      skillName: 'Bootstarp',
+      fontAwesomeClassname: 'fab fa-bootstrap',
+    },
+    {
+      skillName: 'Angular',
+      fontAwesomeClassname: 'fab fa-angular',
+    },
+    {
+      skillName: 'Vue',
+      fontAwesomeClassname: 'fab fa-vue',
+    }, {
+      skillName: 'React Js',
+      fontAwesomeClassname: 'fab fa-react',
+    },
+    {
+      skillName: 'Laravel',
+      fontAwesomeClassname: 'fab fa-laravel',
+    },
+    {
+      skillName: 'Nodejs',
+      fontAwesomeClassname: 'fab fa-node',
+    },
+    {
+      skillName: 'Git',
+      fontAwesomeClassname: 'fab fa-git',
+    },
+    {
+      skillName: 'Linux Boxes',
+      fontAwesomeClassname: 'fab fa-linux',
+    },
+    {
+      skillName: 'NoSQL',
+      fontAwesomeClassname: 'fa fa-database',
+    },
+    // {
+    //   skillName: 'reactjs',
+    //   fontAwesomeClassname: 'fab fa-react',
+    // },
+    // {
+    //   skillName: 'nodejs',
+    //   fontAwesomeClassname: 'fab fa-node',
+    // },
+    // {
+    //   skillName: 'swift',
+    //   fontAwesomeClassname: 'fab fa-swift',
+    // },
+    // {
+    //   skillName: 'npm',
+    //   fontAwesomeClassname: 'fab fa-npm',
+    // },
+    // {
+    //   skillName: 'sql-database',
+    //   fontAwesomeClassname: 'fas fa-database',
+    // },
+    // {
+    //   skillName: 'aws',
+    //   fontAwesomeClassname: 'fab fa-aws',
+    // },
+    // {
+    //   skillName: 'firebase',
+    //   fontAwesomeClassname: 'fas fa-fire',
+    // },
+    // {
+    //   skillName: 'python',
+    //   fontAwesomeClassname: 'fab fa-python',
+    // },
+    // {
+    //   skillName: 'docker',
+    //   fontAwesomeClassname: 'fab fa-docker',
+    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -142,15 +197,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-      progressPercentage: '90%', //Insert relative proficiency in percentage
+      Stack: 'Software Engineering', //Insert stack or technology you have experience in
+      progressPercentage: '100%', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
+      Stack: 'Data Science',
       progressPercentage: '70%',
     },
     {
-      Stack: 'Programming',
+      Stack: 'Machine Learning',
       progressPercentage: '60%',
     },
   ],
