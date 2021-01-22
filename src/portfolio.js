@@ -96,10 +96,11 @@ https://fontawesome.com/icons?d=gallery */
       skillName: 'Angular',
       fontAwesomeClassname: 'fab fa-angular',
     },
+    // {
+    //   skillName: 'Vue',
+    //   fontAwesomeClassname: 'fab fa-vue',
+    // },
     {
-      skillName: 'Vue',
-      fontAwesomeClassname: 'fab fa-vue',
-    }, {
       skillName: 'React Js',
       fontAwesomeClassname: 'fab fa-react',
     },
@@ -166,7 +167,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: 'Harvard University',
@@ -198,15 +199,15 @@ const techStack = {
   experience: [
     {
       Stack: 'Software Engineering', //Insert stack or technology you have experience in
-      progressPercentage: '100%', //Insert relative proficiency in percentage
+      // progressPercentage: '100%', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Data Science',
-      progressPercentage: '70%',
+      // progressPercentage: '70%',
     },
     {
       Stack: 'Machine Learning',
-      progressPercentage: '60%',
+      // progressPercentage: '60%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -218,32 +219,42 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
-      date: 'June 2018 – Present',
+      role: 'Junior Data Scientist',
+      company: 'Dev Career',
+      companylogo: require('./assets/images/devcareerLogo.jpg'),
+      date: 'Aug 2020 – Nov 2020',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'DevCareer is a Non-Profit organization that\'s focused on supporting upcoming developers with resources to excel into World Class.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        "Get introduced to Data Science and Machine Learning field and their various sub-branches.",
+        "Carried out numerous exploratory data analysis techniques.",
+        "Cleaned and optimized datasets for making predictive and classification machine learning model technologies.",
+        "Built a stock market price predictive machine learning model and deploying it on the web.",
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Software Engineer',
+      company: 'Digit Tech',
+      companylogo: require('./assets/images/digitLogo.jpg'),
+      date: 'Sep 2019 – Aug 2020',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'DigiT is one of the latest Digital Technology Solutions Company providing digital solutions to individuals, organisations, and businesses.',
+        descBullets: [
+          "Developed, maintained & optimized new and existing frontend and backend features.",
+          "Built, implemented, and maintained many back-end services including the flagship Check Management System Software’s Series"
+        ]
     },
     {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
-      date: 'Jan 2015 – Sep 2015',
+      role: 'Software Engineer',
+      company: 'Ouches Tech',
+      companylogo: require('./assets/images/ouchesLogo.jpg'),
+      date: 'Jan 2020 – Jun 2020',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Ouches Technology is an Information Technology Solutions Company that offers software solutions leveraging Ai, Robotics and Blockchain Technologies',
+        descBullets: [
+          "Built an AI and Robotics online course platform REST API.",
+          "Learnd and made mini implementation of a smart contract blockchain backed platform."
+        ]
     },
   ],
 };
@@ -360,7 +371,7 @@ const blogSection = {
         'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
