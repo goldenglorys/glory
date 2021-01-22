@@ -297,54 +297,93 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: 'ICSI | Certified Network Security Specialist',
       subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
+        'Learned the holistic view of modern network security including operating system hardening, firewalls, intrusion-detection systems, VPNs and Encryption. Physical Security, Standards, System Security and Security Policies with the institute.',
+      image: require('./assets/images/CNSS_Badge.png'),
       footerLink: [
         {
           name: 'Certification',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
-        },
-        {
-          name: 'Award Letter',
-          url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
-        },
-        {
-          name: 'Google Code-in Blog',
-          url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+            'https://www.icsi.co.uk/certificates/vwktuyc7ur',
         },
       ],
     },
     {
-      title: 'Google Assistant Action',
+      title: 'Cognitive Class.ai Introduction to Data Science Course',
       subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+        'Learned from the real practitioners telling real stories about what it means to work in data science. ',
+      image: require('./assets/images/ds101.png'),
       footerLink: [
         {
-          name: 'View Google Assistant Action',
+          name: 'Certification',
           url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+            'https://courses.cognitiveclass.ai/certificates/b299b19ef17c411eb6a401b1bb90a613',
         },
       ],
     },
-
     {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
+      title: 'Credly Acclaim Badges',
+      subtitle:
+        '',
+      image: require('./assets/images/acclaim.png'),
       footerLink: [
-        { name: 'Certification', url: '' },
         {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
+          name: 'Badges',
+          url:
+            'https://www.youracclaim.com/users/olusola-glory/badges',
         },
       ],
     },
+    // {
+    //   title: 'Google Code-In Finalist',
+    //   subtitle:
+    //     'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
+    //   image: require('./assets/images/codeInLogo.webp'),
+    //   footerLink: [
+    //     {
+    //       name: 'Certification',
+    //       url:
+    //         'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
+    //     },
+    //     {
+    //       name: 'Award Letter',
+    //       url:
+    //         'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+    //     },
+    //     {
+    //       name: 'Google Code-in Blog',
+    //       url:
+    //         'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: 'Google Assistant Action',
+    //   subtitle:
+    //     'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
+    //   image: require('./assets/images/googleAssistantLogo.webp'),
+    //   footerLink: [
+    //     {
+    //       name: 'View Google Assistant Action',
+    //       url:
+    //         'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+    //     },
+    //   ],
+    // },
+
+    // {
+    //   title: 'PWA Web App Developer',
+    //   subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
+    //   image: require('./assets/images/pwaLogo.webp'),
+    //   footerLink: [
+    //     { name: 'Certification', url: '' },
+    //     {
+    //       name: 'Final Project',
+    //       url: 'https://pakistan-olx-1.firebaseapp.com/',
+    //     },
+    //   ],
+    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };

@@ -42,7 +42,7 @@ export default function Achievement() {
                   cardInfo={{
                     title: card.title,
                     description: card.subtitle,
-                    image: card.image,
+                    image: card.image.default,
                     footer: card.footerLink,
                   }}
                 />
