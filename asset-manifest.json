@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.5ce7f12e.chunk.css",
-    "main.js": "/static/js/main.d215a577.chunk.js",
-    "main.js.map": "/static/js/main.d215a577.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7a39dcde.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7a39dcde.js.map",
-    "static/js/2.31471b38.chunk.js": "/static/js/2.31471b38.chunk.js",
-    "static/js/2.31471b38.chunk.js.map": "/static/js/2.31471b38.chunk.js.map",
+    "main.js": "/static/js/main.dd69f811.chunk.js",
+    "main.js.map": "/static/js/main.dd69f811.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b2516fa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b2516fa.js.map",
+    "static/js/2.42603e64.chunk.js": "/static/js/2.42603e64.chunk.js",
+    "static/js/2.42603e64.chunk.js.map": "/static/js/2.42603e64.chunk.js.map",
     "static/css/3.13d9c9f5.chunk.css": "/static/css/3.13d9c9f5.chunk.css",
-    "static/js/3.27c1f15c.chunk.js": "/static/js/3.27c1f15c.chunk.js",
-    "static/js/3.27c1f15c.chunk.js.map": "/static/js/3.27c1f15c.chunk.js.map",
+    "static/js/3.1c0a6d2b.chunk.js": "/static/js/3.1c0a6d2b.chunk.js",
+    "static/js/3.1c0a6d2b.chunk.js.map": "/static/js/3.1c0a6d2b.chunk.js.map",
     "static/css/4.68544a6f.chunk.css": "/static/css/4.68544a6f.chunk.css",
-    "static/js/4.40590c71.chunk.js": "/static/js/4.40590c71.chunk.js",
-    "static/js/4.40590c71.chunk.js.map": "/static/js/4.40590c71.chunk.js.map",
+    "static/js/4.41f42b3a.chunk.js": "/static/js/4.41f42b3a.chunk.js",
+    "static/js/4.41f42b3a.chunk.js.map": "/static/js/4.41f42b3a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/3.13d9c9f5.chunk.css.map": "/static/css/3.13d9c9f5.chunk.css.map",
     "static/css/4.68544a6f.chunk.css.map": "/static/css/4.68544a6f.chunk.css.map",
     "static/css/main.5ce7f12e.chunk.css.map": "/static/css/main.5ce7f12e.chunk.css.map",
-    "static/js/2.31471b38.chunk.js.LICENSE.txt": "/static/js/2.31471b38.chunk.js.LICENSE.txt",
+    "static/js/2.42603e64.chunk.js.LICENSE.txt": "/static/js/2.42603e64.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/CNSS_Badge.png": "/static/media/CNSS_Badge.38d3ec19.png",
     "static/media/acclaim.png": "/static/media/acclaim.b68bb428.png",
@@ -35,9 +35,9 @@
     "static/media/TalkCard.css": "/static/media/talksCardBack.73ed1545.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7a39dcde.js",
-    "static/js/2.31471b38.chunk.js",
+    "static/js/runtime-main.1b2516fa.js",
+    "static/js/2.42603e64.chunk.js",
     "static/css/main.5ce7f12e.chunk.css",
-    "static/js/main.d215a577.chunk.js"
+    "static/js/main.dd69f811.chunk.js"
   ]
 }
