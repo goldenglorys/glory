@@ -51,7 +51,9 @@ const skillsSection = {
       "⚡ A systems engineer that analyze problems and solve it by engineering solution from a combination of existing components or by inventing entirely new one. "
     ),
     emoji("⚡ Integration of third party services such as Firebase/ AWS / GCP"),
-    emoji("⚡ Quantum Computing Obessed Individual"),
+    emoji(
+      "⚡ Quantum Computing, IoT, Blockchain Programming Obessed Individual"
+    ),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -122,10 +124,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "NoSQL",
       fontAwesomeClassname: "fa fa-database",
     },
-    // {
-    //   skillName: 'reactjs',
-    //   fontAwesomeClassname: 'fab fa-react',
-    // },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire",
+    },
+    {
+      skillName: "Blockchain Programming",
+      fontAwesomeClassname: "fab fa-btc",
+    },
     // {
     //   skillName: 'nodejs',
     //   fontAwesomeClassname: 'fab fa-node',
@@ -147,10 +153,6 @@ https://fontawesome.com/icons?d=gallery */
     //   fontAwesomeClassname: 'fab fa-aws',
     // },
     // {
-    //   skillName: 'firebase',
-    //   fontAwesomeClassname: 'fas fa-fire',
-    // },
-    // {
     //   skillName: 'python',
     //   fontAwesomeClassname: 'fab fa-python',
     // },
@@ -165,28 +167,40 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "SQI College of ICT",
+      logo: require("./assets/images/sqi2.webp"),
+      subHeader: "Diploma inSoftware Engineering",
+      duration: "December 2018 - Present",
+      desc:
+        "The National Innovation Diploma programme provides access to Technical and Vocational education plus professional skillset in ICT",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Uses knowledge of engineering principles and programming languages to build software products, develop computer games, and run network control systems.",
+        " At SQI, we are typically tasked with thinking about and planning the structure and interactions of a software at a high level.",
       ],
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
-    },
+    // {
+    //   schoolName: "Harvard University",
+    //   logo: require("./assets/images/harvardLogo.png"),
+    //   subHeader: "Master of Science in Computer Science",
+    //   duration: "September 2017 - April 2019",
+    //   desc: "Participated in the research of XXX and published 3 papers.",
+    //   descBullets: [
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   ],
+    // },
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc:
+    //     "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
+    // },
   ],
 };
 
@@ -197,15 +211,19 @@ const techStack = {
   experience: [
     {
       Stack: "Software Engineering", //Insert stack or technology you have experience in
-      // progressPercentage: '100%', //Insert relative proficiency in percentage
+      progressPercentage: "99%", //Insert relative proficiency in percentage
     },
     {
       Stack: "Data Science",
-      // progressPercentage: '70%',
+      progressPercentage: "55%",
     },
     {
       Stack: "Machine Learning",
-      // progressPercentage: '60%',
+      progressPercentage: "50%",
+    },
+    {
+      Stack: "Blockchain Programming",
+      progressPercentage: "40%",
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -220,7 +238,7 @@ const workExperiences = {
       role: "Junior Data Scientist",
       company: "Dev Career",
       companylogo: require("./assets/images/devcareerLogo.jpg"),
-      date: "Aug 2020 – Nov 2020",
+      date: "Aug 2020 – Dec 2020",
       desc:
         "DevCareer is a Non-Profit organization that's focused on supporting upcoming developers with resources to excel into World Class.",
       descBullets: [
@@ -451,7 +469,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "zenithsilarex", //Replace "twitter" with your twitter username without @
+  userName: "zenithsilvarex", //Replace "twitter" with your twitter username without @
   display: true, // Set true to display this section, defaults to false
 };
 
