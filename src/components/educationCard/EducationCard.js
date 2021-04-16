@@ -21,13 +21,15 @@ export default function EducationCard({ school }) {
       <Fade left duration={1000}>
         <div className="education-card">
           <div className="education-card-left">
-            <img
-              crossOrigin={"anonymous"}
-              ref={imgRef}
-              className="education-roundedimg"
-              src={school.logo.default}
-              alt={school.schoolName}
-            />
+            <a href={school.link}>
+              <img
+                crossOrigin={"anonymous"}
+                ref={imgRef}
+                className="education-roundedimg"
+                src={school.logo.default}
+                alt={school.schoolName}
+              />
+            </a>
           </div>
           <div className="education-card-right">
             <h5 className="education-text-school">{school.schoolName}</h5>

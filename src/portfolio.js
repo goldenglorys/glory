@@ -171,6 +171,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "SQI College of ICT",
+      link: "http://edu.sqi.ng",
       logo: require("./assets/images/sqi2.webp"),
       subHeader: "Diploma inSoftware Engineering",
       duration: "December 2018 - Present",
@@ -181,26 +182,48 @@ const educationInfo = {
         " At SQI, we are typically tasked with thinking about and planning the structure and interactions of a software at a high level.",
       ],
     },
-    // {
-    //   schoolName: "Harvard University",
-    //   logo: require("./assets/images/harvardLogo.png"),
-    //   subHeader: "Master of Science in Computer Science",
-    //   duration: "September 2017 - April 2019",
-    //   desc: "Participated in the research of XXX and published 3 papers.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //   ],
-    // },
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc:
-    //     "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"],
-    // },
+    {
+      schoolName: "Open Source Society University",
+      link: "https://github.com/ossu/",
+      logo: require("./assets/images/ossu.png"),
+      subHeader: "Computer Science | Data Science",
+      duration: "January 2021 - December 2021",
+      desc: "Path to a free self-taught education in Computer Science! ",
+      descBullets: [
+        "The OSSU curriculum is a complete education in computer science using online materials.",
+        "It is designed according to the degree requirements of undergraduate computer science majors, minus general education (non-CS) requirements",
+        "The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.",
+      ],
+    },
+    {
+      schoolName: "University of Helsinki",
+      link: "https://fullstackopen.com/",
+      logo: require("./assets/images/fullstackopen.png"),
+      subHeader: "Dept. of Computer Science Fullstack Open Course",
+      duration: "2021",
+      desc:
+        "This course serves as an introduction to modern web application development with JavaScript. The main focus is on building single page applications with ReactJS that use REST APIs built with Node.js. The course also contains a section on GraphQL, a modern alternative to REST APIs.",
+      descBullets: [],
+    },
+    {
+      schoolName: "Zuri Academy",
+      link: "https://zuri.team",
+      logo: require("./assets/images/zuri.png"),
+      subHeader: "Zri Training Python Track",
+      duration: "2021",
+      desc:
+        "Learn the practical approach to programming using Python in several projects base learning streak",
+      descBullets: [],
+    },
+    {
+      schoolName: "Zero to Mastery Academy",
+      link: "https://zerotomastery.io/",
+      logo: require("./assets/images/zerotomastery.png"),
+      subHeader: "Zero to Mastery Python Development",
+      duration: "2021",
+      desc: "",
+      descBullets: [],
+    },
   ],
 };
 
